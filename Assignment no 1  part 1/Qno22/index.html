@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: yellow;">
+    <h4>  <pre></pre>
+        Subtraction result: NaN
+var number1 = parseFloat(prompt("Enter the first number:")); var number2 = parseFloat(prompt("Enter the second number:")); // Perform operations var subtractionResult = number1 - number2; var multiplicationResult = number1 * number2; var divisionResult, modulusResult; if (number2 !== 0) { divisionResult = number1 / number2; modulusResult = number1 % number2; } else { divisionResult = "Cannot divide by zero"; modulusResult = "Cannot calculate modulus with zero divisor"; } document.write("<p>Subtraction result: " + subtractionResult + "</p>"); document.write("<p>Multiplication result: " + multiplicationResult + "</p>"); document.write("<p>Division result: " + divisionResult + "</p>"); document.write("<p>Modulus result: " + modulusResult + "</p>");
+
+Multiplication result: NaN
+
+Division result: NaN
+
+Modulus result: NaN
+</pre> </h4>
+    
+    <script>
+        var number1 = parseFloat(prompt("Enter the first number:"));
+        var number2 = parseFloat(prompt("Enter the second number:"));
+
+        // Perform operations
+        var subtractionResult = number1 - number2;
+        var multiplicationResult = number1 * number2;
+        
+        var divisionResult, modulusResult;
+        if (number2 !== 0) {
+            divisionResult = number1 / number2;
+            modulusResult = number1 % number2;
+        } else {
+            divisionResult = "Cannot divide by zero";
+            modulusResult = "Cannot calculate modulus with zero divisor";
+        }
+
+        document.write("<p>Subtraction result: " + subtractionResult + "</p>");
+        document.write("<p>Multiplication result: " + multiplicationResult + "</p>");
+        document.write("<p>Division result: " + divisionResult + "</p>");
+        document.write("<p>Modulus result: " + modulusResult + "</p>");</script>
+</body>
+</html>

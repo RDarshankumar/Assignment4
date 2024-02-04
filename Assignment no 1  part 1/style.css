@@ -1,0 +1,57 @@
+body{
+    background-color: #FFFF00;
+}
+button{
+    height: 100px;
+    
+}
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        
+        
+    
+}
+.containertwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+
+}
+.containerthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+
+}
+
+.containerfour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;}
+
+.containerfive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+button{
+    background-color: pink;
+    
+}
+*{
+padding-top: 60px;
+padding-bottom: 40px;
+margin: 2px;
+}
+    
+    
+    
